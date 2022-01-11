@@ -1,7 +1,7 @@
 job('Aplicación de carrito de compras') {
     description('Aplicacion de carrito de compras')
     scm {
-        git('https://github.com/diegoCruzNe/citas1', 'main') { node ->
+        git('https://github.com/diegoCruzNe/carrito.git', 'main') { node ->
             node / gitConfigName('diegocruzNe')
             node / gitConfigEmail('diego.fcb.96@gmail.com')
         }
